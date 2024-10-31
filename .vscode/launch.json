@@ -1,0 +1,28 @@
+{
+    // Gunakan IntelliSense untuk mempelajari atribut yang mungkin.
+    // Arahkan kursor untuk melihat deskripsi atribut yang ada.
+    // Untuk informasi lebih lanjut, kunjungi: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ta",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/pages/main.dart",
+        },
+        {
+            "name": "ta (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/pages/main.dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "ta (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/pages/main.dart",
+            "flutterMode": "release"
+        }
+    ]
+}
